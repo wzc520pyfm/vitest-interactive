@@ -15,6 +15,8 @@ watchEffect(() => {
       {
         height: window.innerHeight - document.querySelector('.VPNav')?.clientHeight!,
         view: 'preview',
+        hideExplorer: true,
+        hideNavigation: true,
       }
     )
   }
