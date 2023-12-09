@@ -1,0 +1,24 @@
+{
+  "name": "vitest-interactive",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "wzc520pyfm",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=8"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^1.0.2",
+    "vite": "^5.0.7",
+    "vitest": "^1.0.2"
+  }
+}
