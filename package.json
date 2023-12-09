@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "wzc520pyfm",
-  "license": "ISC",
+  "license": "MIT",
   "engines": {
     "node": ">=20",
     "pnpm": ">=8"
