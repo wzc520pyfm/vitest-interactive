@@ -1,0 +1,23 @@
+:root {
+
+  .VPDoc {
+    padding: 0 !important;
+
+    .container {
+      max-width: 100% !important;
+
+      .content {
+        max-width: 100% !important;
+        padding: 0 !important;
+
+        .content-container {
+          max-width: 100% !important;
+
+          .VPDocFooter {
+            margin-top: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}

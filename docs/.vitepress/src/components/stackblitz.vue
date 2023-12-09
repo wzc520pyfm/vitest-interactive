@@ -14,7 +14,6 @@ watchEffect(() => {
       'wzc520pyfm/vitest-interactive',
       {
         height: window.innerHeight - document.querySelector('.VPNav')?.clientHeight!,
-        // width: window.innerWidth,
         view: 'preview',
       }
     )
