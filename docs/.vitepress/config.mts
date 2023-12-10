@@ -9,7 +9,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Introduction', link:'/introduction' }
+      { text: 'Introduction', link:'/introduction', target: '_blank' },
+      { 
+        text: 'Link',
+        items: [
+          { text: 'Vitest', link: 'https://vitest.dev/', target: '_blank' },
+          { text: 'API', link: 'https://vitest.dev/api/', target: '_blank' },
+        ]
+      }
     ],
 
     socialLinks: [
