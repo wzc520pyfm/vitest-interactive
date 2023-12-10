@@ -1,5 +1,9 @@
 :root {
 
+  iframe {
+    border: none;
+  }
+
   .VPDoc {
     padding: 0 !important;
 
