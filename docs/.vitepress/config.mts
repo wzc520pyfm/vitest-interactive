@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Vitest Interactive",
   description: "Introduction to interactive vitest api, based on vitest ui",
+  appearance: "dark",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
