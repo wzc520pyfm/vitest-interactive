@@ -7,6 +7,7 @@ export default defineConfig({
   appearance: "dark",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Introduction', link:'/introduction', target: '_blank' },

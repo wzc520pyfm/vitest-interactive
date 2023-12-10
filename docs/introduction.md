@@ -6,20 +6,24 @@ hero:
   name: "Vitest Interactive"
   text: ""
   tagline: Introduction to interactive vitest api, based on vitest ui
+  image: /logo.svg
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Vitest API
+      link: https://vitest.dev/api/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Online
+    icon: <img src="./public/stackblitz.svg"></img>
+    details: Runs Vitest Api in the browser, It doesn't require installing anything on your machine.
+  - title: Interactive
+    icon: <img src="./public/vitest.svg"></img>
+    details: Interactive preview Vitest API
+  - title: Consistent
+    icon: 💪
+    details: Base on Vitest ui
 ---
 
