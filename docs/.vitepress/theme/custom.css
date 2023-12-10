@@ -10,6 +10,10 @@
     .container {
       max-width: 100% !important;
 
+      .aside {
+        display: none !important;
+      }
+
       .content {
         max-width: 100% !important;
         padding: 0 !important;
