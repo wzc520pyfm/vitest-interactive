@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Vitest Interactive",
   description: "Introduction to interactive vitest api, based on vitest ui",
   appearance: "dark",
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
