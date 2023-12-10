@@ -17,10 +17,10 @@ hero:
 
 features:
   - title: Online
-    icon: <img src="./public/stackblitz.svg"></img>
+    icon: <img src="/stackblitz.svg"></img>
     details: Runs Vitest Api in the browser, It doesn't require installing anything on your machine.
   - title: Interactive
-    icon: <img src="./public/vitest.svg"></img>
+    icon: <img src="/vitest.svg"></img>
     details: Interactive preview Vitest API
   - title: Consistent
     icon: 💪
